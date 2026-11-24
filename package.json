@@ -1,0 +1,19 @@
+{
+  "name": "playwright-shopping-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript tests for the requested Automation Exercise shopping flows.",
+  "scripts": {
+    "test": "playwright test",
+    "test:functional": "playwright test --grep @functional",
+    "test:aria": "playwright test --grep @aria",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
+}
